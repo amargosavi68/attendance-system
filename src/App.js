@@ -3,9 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from 'react';
 import MsLogin from './components/MsLogin';
 import MsDashboard from "./components/MsDashboard";
-import { initializeIcons } from '@fluentui/react';
-
-initializeIcons();
 
 function App() {
 	return (

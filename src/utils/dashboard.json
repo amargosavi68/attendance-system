@@ -1,0 +1,18 @@
+{
+     "dashboard": {
+          "analytics" : [
+               {
+                    "heading": "Total Departments",
+                    "value": "07"
+               },
+               {
+                    "heading": "Total Revenue",
+                    "value": "$1.03M"
+               },
+               {
+                    "heading": "Average Attendee",
+                    "value": "86.58%"
+               }
+          ]
+     }
+}
