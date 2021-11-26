@@ -6,7 +6,8 @@ const MsCard = (props) => {
           boxShadow: "0px 0px 8px 1px #bbb",
           borderRadius: props.br || "5px",
           height: props.height || "",
-          width: props.width || ""
+          width: props.width || "",
+          margin: props.margin || 0,
      }
 
      return (

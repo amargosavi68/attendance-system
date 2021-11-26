@@ -11,6 +11,7 @@ function App() {
 				<Routes>
 					<Route path="/" element={<MsDashboard />} />
 					<Route path="/login" element={<MsLogin />} />
+					<Route path="/dashboard" element={<MsDashboard />} />
 				</Routes>
 			</Router>
 		</React.Fragment>
