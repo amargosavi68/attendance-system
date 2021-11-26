@@ -26,12 +26,12 @@ const innerDiv = {
 
 const MsDataCard = (props) => {
      return (
-          <StackItem className="col-sm-10 col-md-6 col-lg-3 mt-3">
+          <StackItem className="col-sm-10 col-md-6 col-lg-3 mt-3 mb-3">
                <MsCard height="200px" width="330px">
                     <StackItem className="mt-2" align="center">
                          <Text variant="xLarge">{props.heading}</Text>
                     </StackItem>
-                    <StackItem className="m-3" align="center" style={outerDiv}>
+                    <StackItem className="mt-3 mb-3" align="center" style={outerDiv}>
                          <div style={innerDiv}>
                               <Text variant="xxLarge">{props.value}</Text>
                          </div>
