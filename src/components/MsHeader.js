@@ -41,6 +41,12 @@ const MsHeader = () => {
                                    url: "/departments",
                                    key: "4",
                               },
+                              {
+                                   name: "Users",
+                                   icon: "AccountBrowser",
+                                   url: "/users",
+                                   key: "8",
+                              },
                          ],
                     },
 
